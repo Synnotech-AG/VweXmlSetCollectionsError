@@ -28,6 +28,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendedXmlSerializer.Tests
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendedXmlSerializer.Samples", "samples\ExtendedXmlSerializer.Samples\ExtendedXmlSerializer.Samples.csproj", "{935EB8FE-A9E5-4DC7-8CBB-7A32E2A56C9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VweCore", "VweCore\VweCore.csproj", "{ED6FCF41-2C48-44BD-827E-549EBE7E8568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VweCore.Tests", "VweCore.Tests\VweCore.Tests.csproj", "{53F6AA31-A7E8-471C-BC1B-85BA3888C21D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,14 @@ Global
 		{935EB8FE-A9E5-4DC7-8CBB-7A32E2A56C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{935EB8FE-A9E5-4DC7-8CBB-7A32E2A56C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{935EB8FE-A9E5-4DC7-8CBB-7A32E2A56C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6FCF41-2C48-44BD-827E-549EBE7E8568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6FCF41-2C48-44BD-827E-549EBE7E8568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6FCF41-2C48-44BD-827E-549EBE7E8568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6FCF41-2C48-44BD-827E-549EBE7E8568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F6AA31-A7E8-471C-BC1B-85BA3888C21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F6AA31-A7E8-471C-BC1B-85BA3888C21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F6AA31-A7E8-471C-BC1B-85BA3888C21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F6AA31-A7E8-471C-BC1B-85BA3888C21D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
