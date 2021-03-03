@@ -33,6 +33,8 @@ namespace VweCore
 
         public Point2D StorageRowOffset { get; set; }
 
+        public string Type { get; set; } = "Foo";
+
         void ICustomDelete.DeleteFromMap(Map map) => DeleteFromMap(map);
 
         void ICustomDelete.RestoreBackToMap(Map map) => RestoreBackToMap(map);
